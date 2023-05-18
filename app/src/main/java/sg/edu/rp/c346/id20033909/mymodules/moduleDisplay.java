@@ -26,8 +26,8 @@ public class moduleDisplay extends AppCompatActivity {
         String moduleCredit = intentReceived.getStringExtra("moduleCredit");
         String venue = intentReceived.getStringExtra("venue");
 
-        displayTv.setText("Module Code: "+moduleCode+"\nModule Name: "+moduleName+"\nAcademic Year"
-        +academicYear+"\nSemester: "+semester+"\nModule Credit: "+moduleCredit+"\nvenue: "+venue);
+        displayTv.setText("Module Code: " + moduleCode + "\nModule Name: " + moduleName + "\nAcademic Year"
+        + academicYear +  "\nSemester: " + semester + "\nModule Credit: " + moduleCredit + "\nvenue: " + venue);
 
 
     }
