@@ -24,13 +24,13 @@ public class MainActivity extends AppCompatActivity {
         m1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, detailActivity.class);
-                intent.putExtra("Module Code", "");
-                intent.putExtra("Module Name", "");
-                intent.putExtra("Academy Year", "");
-                intent.putExtra("Semester", "");
-                intent.putExtra("Module Credit", "");
-                intent.putExtra("Venue", "");
+                Intent intent = new Intent(MainActivity.this, moduleDisplay.class);
+                intent.putExtra("moduleCode", "C346");
+                intent.putExtra("moduleName", "Android Programming");
+                intent.putExtra("academicYear", "2020");
+                intent.putExtra("semester", "1");
+                intent.putExtra("moduleCredit", "4");
+                intent.putExtra("venue", "W66M");
                 startActivity(intent);
             }
         });
@@ -38,13 +38,13 @@ public class MainActivity extends AppCompatActivity {
         m2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, detailActivity.class);
-                intent.putExtra("Module Code", "");
-                intent.putExtra("Module Name", "");
-                intent.putExtra("Academy Year", "");
-                intent.putExtra("Semester", "");
-                intent.putExtra("Module Credit", "");
-                intent.putExtra("Venue", "");
+                Intent intent = new Intent(MainActivity.this, moduleDisplay.class);
+                intent.putExtra("moduleCode", "C349");
+                intent.putExtra("moduleName", "iPad Programming");
+                intent.putExtra("academicYear", "2020");
+                intent.putExtra("semester", "1");
+                intent.putExtra("moduleCredit", "4");
+                intent.putExtra("venue", "E63A");
                 startActivity(intent);
 
             }
@@ -53,13 +53,13 @@ public class MainActivity extends AppCompatActivity {
         m3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, detailActivity.class);
-                intent.putExtra("Module Code", "");
-                intent.putExtra("Module Name", "");
-                intent.putExtra("Academy Year", "");
-                intent.putExtra("Semester", "");
-                intent.putExtra("Module Credit", "");
-                intent.putExtra("Venue", "");
+                Intent intent = new Intent(MainActivity.this, moduleDisplay.class);
+                intent.putExtra("moduleCode", "C206");
+                intent.putExtra("moduleName", "Software Development Process");
+                intent.putExtra("academicYear", "2020");
+                intent.putExtra("semester", "1");
+                intent.putExtra("moduleCredit", "4");
+                intent.putExtra("venue", "W65D");
                 startActivity(intent);
 
             }
